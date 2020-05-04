@@ -36,7 +36,7 @@ submitForm(e) {
 
 render() {
     return <div className="FormMovie">
-    <h1>Saisie d'un employé</h1>
+    <h1>Saisie un filme</h1>
   
     <form onSubmit={this.submitForm}>
       <fieldset>
@@ -64,7 +64,7 @@ render() {
         </div>
   
         <div className="form-data">
-          <label htmlFor="comment">commentére : </label>
+          <label htmlFor="comment">comment : </label>
           <input
             type="text"
             id="comment"
