@@ -36,7 +36,7 @@ submitForm(e) {
 
 render() {
     return <div className="FormMovie">
-    <h1>Saisie un filme</h1>
+    <h1>Saisie un film</h1>
   
     <form onSubmit={this.submitForm}>
       <fieldset>
